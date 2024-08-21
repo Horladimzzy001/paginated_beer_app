@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:paginated_beer_app/beer_provider.dart';
-import 'package:paginated_beer_app/beer_service.dart';
+import 'package:paginated_beer_app/stateManagement/beer_provider.dart';
 import 'package:provider/provider.dart';
 
 
 class PostDetailScreen extends StatelessWidget {
-
-
 
   @override
   Widget build(BuildContext context) {
