@@ -31,7 +31,7 @@ class PostProvider extends ChangeNotifier {
       List<Post> newPosts = jsonResponse.map((post) => Post.fromJson(post)).toList();
 
       if (newPosts.length < 10) {
-        _hasMorePosts = false; // No more posts to fetch
+        _hasMorePosts = false; // No more posts to fetch from the endpoint
       }
 
       _posts.addAll(newPosts);
